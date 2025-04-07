@@ -11,6 +11,7 @@ class Constants:
     def inventory_url():
         return "https://www.saucedemo.com/inventory.html"
 
+
     @staticmethod
     def cart_url():
         return "https://www.saucedemo.com/cart.html"
