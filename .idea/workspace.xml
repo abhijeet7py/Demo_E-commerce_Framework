@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a463102c-c706-44ea-a8cb-fb48a0d3482e" name="Changes" comment="E commerce Test Frame work">
-      <change afterPath="$PROJECT_DIR$/tests/pageobjects/pom/inventory_page.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Features/LoginFeature.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Features/Steps/stepslogin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,12 +24,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "abhijeet7py"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;abhijeet7py&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/abhijeet7py/Demo_E-commerce_Framework.git&quot;,
@@ -36,6 +37,8 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Features/LoginFeature.feature" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Features/Steps/stepslogin.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/pytest.ini" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/tests/test/swagTests/prod/test_swag_Login.py" root0="SKIP_INSPECTION" />
   </component>
@@ -53,7 +56,8 @@
     "Python tests.Python tests in test_swag_Login.py.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Python-Selenium/Framework/Demo_E-commerce_Framework"
+    "last_opened_file_path": "C:/Python-Selenium/Framework/Demo_E-commerce_Framework",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="SharedIndexes">
@@ -88,7 +92,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744037192426</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="E commerce Test Frame work">
+      <option name="closed" value="true" />
+      <created>1744123477726</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1744123477726</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
