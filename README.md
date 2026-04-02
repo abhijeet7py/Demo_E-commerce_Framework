@@ -1,27 +1,49 @@
-### Web Automation Framework with POM in Python(Selenium)
+### Demo E-commerce Selenium Framework (Refactored)
 
+Production-oriented, beginner-friendly test automation framework using:
+- Python + Selenium + Pytest
+- Page Object Model (POM)
+- Centralized driver fixture
+- JSON-based environment configuration
+- Allure reporting + failure screenshots
+- Logging and retry utility for flaky UI interactions
 
-### **Tech Stack **
-- Python
-- PyTest
-- Selenium -> 4.26
-- Allure Report - Allure Pytest
-- Git Ignore.  (gnore files)
-- PyTest HTML - Report
-- Page Object Model (with Page Factory)
-- Parallel Run with xdist.
+## Refactored Structure
 
-### All the dependencies used
-- pip install allure-pytest selenium
-- pip install pytest selenium pytest-html openpyxl 
-- pip install selenium-page-factory 
-- pip install pyyaml faker openpyxl
-- pip install pytest-xdist 
-- pip install mysql-connector-python
-- pip install pytest-reportportal
-- pip install python-dotenv
-### How to run the Framework?
-pytest -n auto tests/vwoLoginTests/pom/test_*
+```text
+project_root/
+│── tests/
+│   └── test_login.py
+│── pages/
+│   ├── base_page.py
+│   └── login_page.py
+│── utils/
+│   ├── logger.py
+│   └── retry.py
+│── config/
+│   ├── config_reader.py
+│   └── settings.json
+│── data/
+│   └── login_test_data.py
+│── reports/
+│── conftest.py
+│── pytest.ini
+```
 
-### How to run Testcase parallel ?
-pytest -n auto 
+## Run Tests
+
+```bash
+pytest
+```
+
+## Switch Environment
+
+```bash
+TEST_ENV=dev pytest
+```
+
+## Allure Report
+
+```bash
+allure serve reports/allure-results
+```

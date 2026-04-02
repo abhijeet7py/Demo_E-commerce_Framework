@@ -1,0 +1,17 @@
+{
+  "default_env": "qa",
+  "environments": {
+    "dev": {
+      "base_url": "https://www.saucedemo.com/",
+      "browser": "chrome",
+      "timeout": 10,
+      "headless": false
+    },
+    "qa": {
+      "base_url": "https://www.saucedemo.com/",
+      "browser": "chrome",
+      "timeout": 15,
+      "headless": false
+    }
+  }
+}
